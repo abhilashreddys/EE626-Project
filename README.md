@@ -5,7 +5,8 @@ Automated identification and entity-based sentiment analysis of mobile technolog
 **Problem:**
 *  Develop an intelligent system that could first identify the theme of tweets and articles.
 * If the theme is mobile technology then it should identify the sentiments against a brand (at a tweet/paragraph level).
-* 
+* We would need a one-sentence headline of a max of 20 words for articles that follow the mobile technology theme. A headline for tweets is not required.
+
 ## 0. Data Description
 
 For this task, we have a mix of 4000 non-mobile tech and mobile tech tweets and articles each, with their labels of mobile_tech_tag. No data was given for entity-based sentiment analysis. 
@@ -82,9 +83,9 @@ In order to translate a text you need to follow the following mentioned steps:
 - coloumn name of the text to be converted should be `Text`.
 - `python language_convert.py` 
 ### USAGE: Text Classification
-This model have directly been trained and evaluated in [final notebook](https://github.com/abhilashreddys/EE626-Project/blob/main/notebooks/i2isubmission.ipynb).
+This model have directly been trained and evaluated in [final notebook](https://github.com/abhilashreddys/EE626-Project/blob/main/notebooks/i2i_submission.ipynb).
 ### Brand Identification
-This model have directly been trained and evaluated in [final notebook](https://github.com/abhilashreddys/EE626-Project/blob/main/notebooks/i2isubmission.ipynb).
+This model have directly been trained and evaluated in [final notebook](https://github.com/abhilashreddys/EE626-Project/blob/main/notebooks/i2i_submission.ipynb).
 ### USAGE: Aspect Based Sentiment Analysis
 Spacy and Language models installation:
 
@@ -121,6 +122,8 @@ for the identification of duplicate examples based on Levenshtein distance.
 For different part of the pipeline we have used various open source libraries, datasets and availabe codebase. We are thanksful to the authors of those libraries codebases and datasets.
 - [ASGCN Codebase](https://github.com/GeneZC/ASGCN)
 - [ASGCN Paper](https://arxiv.org/abs/1909.03477)
+- [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
+- [T5 Hugging face transformer](https://huggingface.co/transformers/model_doc/t5.html)
 - [News Summary Dataset Kaggle](https://www.kaggle.com/sunnysai12345/news-summary)
 - [MarianMT](https://huggingface.co/transformers/model_doc/marian.html)
 - [Pytorch](https://pytorch.org/)
