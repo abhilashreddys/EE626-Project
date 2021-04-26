@@ -1,8 +1,16 @@
-# Automated Aspect based Sentiment enerator
+# Automated Aspect based Sentiment generator
 
 Automated identification and entity-based sentiment analysis of mobile technology articles and tweets.
 
-**Problem:**
+**Team members:**
+* 180102054 - Rahul D
+* 180102056 - Renangi Ajay Kumar
+* 180102064 - Samarth Saraswat
+* 180102068 - Shankaramapeta Abhilash Reddy
+
+
+
+**Problem Statement:**
 *  Develop an intelligent system that could first identify the theme of tweets and articles.
 * If the theme is mobile technology then it should identify the sentiments against a brand (at a tweet/paragraph level).
 * We would need a one-sentence headline of a max of 20 words for articles that follow the mobile technology theme. A headline for tweets is not required.
@@ -123,7 +131,6 @@ For different part of the pipeline we have used various open source libraries, d
 - [ASGCN Codebase](https://github.com/GeneZC/ASGCN)
 - [ASGCN Paper](https://arxiv.org/abs/1909.03477)
 - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
-- [T5 Hugging face transformer](https://huggingface.co/transformers/model_doc/t5.html)
 - [News Summary Dataset Kaggle](https://www.kaggle.com/sunnysai12345/news-summary)
 - [MarianMT](https://huggingface.co/transformers/model_doc/marian.html)
 - [Pytorch](https://pytorch.org/)
