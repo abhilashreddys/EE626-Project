@@ -1,6 +1,6 @@
-# Bridgei2i's Automated Headline and Sentiment Generator
+# Automated Aspect based Sentiment enerator
 
-Automated identification, and entity-based sentiment analysis of mobile technology articles and tweets.
+Automated identification and entity-based sentiment analysis of mobile technology articles and tweets.
 
 **Problem:**
 *  Develop an intelligent system that could first identify the theme of tweets and articles.
@@ -13,7 +13,7 @@ For this task, we have a mix of 4000 non-mobile tech and mobile tech tweets and 
 
 ## 1. Pipeline
 
-![Pipeline](https://github.com/mukul54/inter-iit-bridgei2i/blob/main/_assets/pipeline.png)
+![Pipeline](https://github.com/abhilashreddys/EE626-Project/blob/main/_assets/pipeline.jpg)
 
 We created an end-to-end pipeline that goes from the input to the output while ensuring good efficiency as well as code scalability. 
 
@@ -83,9 +83,9 @@ In order to translate a text you need to follow the following mentioned steps:
 - coloumn name of the text to be converted should be `Text`.
 - `python language_convert.py` 
 ### USAGE: Text Classification
-This model have directly been trained and evaluated in [final notebook](https://github.com/mukul54/inter-iit-bridgei2i/blob/main/notebooks/i2isubmission.ipynb).
+This model have directly been trained and evaluated in [final notebook](https://github.com/abhilashreddys/EE626-Project/blob/main/notebooks/i2isubmission.ipynb).
 ### Brand Identification
-This model have directly been trained and evaluated in [final notebook](https://github.com/mukul54/inter-iit-bridgei2i/blob/main/notebooks/i2isubmission.ipynb).
+This model have directly been trained and evaluated in [final notebook](https://github.com/abhilashreddys/EE626-Project/blob/main/notebooks/i2isubmission.ipynb).
 ### USAGE: Aspect Based Sentiment Analysis
 Spacy and Language models installation:
 
