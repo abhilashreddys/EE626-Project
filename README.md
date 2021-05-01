@@ -6,7 +6,7 @@ Automated identification and entity-based sentiment analysis of mobile technolog
 * 180102054 - Rahul D
 * 180102056 - Renangi Ajay Kumar
 * 180102064 - Samarth Saraswat
-* 180102068 - Shankaramapeta Abhilash Reddy
+* 180102068 - Shankarampeta Abhilash Reddy
 
 
 
